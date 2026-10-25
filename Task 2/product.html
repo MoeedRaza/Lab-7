@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Valorant Points | Lootify</title>
+</head>
+
+<body>
+
+  <nav class="site-navbar">
+    <div class="container nav-shell">
+      <a class="navbar-brand" href="index.html"><span class="brand-mark">L</span>LOOT<span
+          class="brand-accent">IFY</span></a>
+      <div class="nav-links">
+        <a class="nav-link " href="index.html">Home</a>
+        <a class="nav-link active" href="products.html">Marketplace</a>
+        <a class="nav-link " href="index.html#reviews">Reviews</a>
+        <a class="nav-link " href="cart.html">Cart</a>
+        <a class="btn btn-darkline btn-sm ms-md-2" href="login.html">Login</a>
+        <a class="btn btn-accent btn-sm ms-1" href="signup.html">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="product-detail">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="product-visual"><img class="game-logo" src="https://cdn.simpleicons.org/valorant/ffffff"
+              alt="Valorant logo"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-label mb-2">VALORANT · DIGITAL CURRENCY</div>
+          <div class="product-info">
+            <h1>2,050 Valorant Points</h1>
+            <p class="section-copy">A Valorant Points package presented as part of the static Lootify marketplace
+              prototype.</p>
+            <div class="product-price">PKR 5,490</div>
+            <div class="product-meta">
+              <div class="product-meta-row"><span>Game</span><strong>Valorant</strong></div>
+              <div class="product-meta-row"><span>Currency</span><strong>Valorant Points</strong></div>
+              <div class="product-meta-row"><span>Package</span><strong>2,050 VP</strong></div>
+              <div class="product-meta-row"><span>Type</span><strong>Digital</strong></div>
+            </div>
+            <form action="cart.html">
+              <div class="mb-3"><label class="form-label">Package</label><select class="form-select">
+                  <option>475 VP</option>
+                  <option>1,000 VP</option>
+                  <option selected>2,050 VP</option>
+                  <option>3,650 VP</option>
+                  <option>5,350 VP</option>
+                </select></div>
+              <div class="mb-4"><label class="form-label">Quantity</label><input type="number" min="1" max="10"
+                  value="1" class="form-control"></div>
+              <button class="btn btn-accent w-100" type="submit">Add to Cart · PKR 5,490</button>
+            </form>
+            <div class="security-note mt-4">This is a static HTML/CSS prototype. Cart selections are not stored between
+              pages.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
