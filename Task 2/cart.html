@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Cart | Lootify</title>
+</head>
+
+<body>
+
+  <nav class="site-navbar">
+    <div class="container nav-shell">
+      <a class="navbar-brand" href="index.html"><span class="brand-mark">L</span>LOOT<span
+          class="brand-accent">IFY</span></a>
+      <div class="nav-links">
+        <a class="nav-link " href="index.html">Home</a>
+        <a class="nav-link " href="products.html">Marketplace</a>
+        <a class="nav-link " href="index.html#reviews">Reviews</a>
+        <a class="nav-link active" href="cart.html">Cart</a>
+        <a class="btn btn-darkline btn-sm ms-md-2" href="login.html">Login</a>
+        <a class="btn btn-accent btn-sm ms-1" href="signup.html">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="section-label mb-2">YOUR ORDER</div>
+      <h1>Shopping Cart</h1>
+      <p class="section-copy">Review quantities and pricing before checkout.</p>
+    </div>
+  </header>
+  <main class="section-block">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="checkout-card p-0 overflow-hidden">
+            <div class="table-responsive">
+              <table class="table cart-table mb-0">
+                <thead>
+                  <tr>
+                    <th class="ps-4">Product</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="ps-4"><strong>2,050 Valorant Points</strong>
+                      <div class="section-copy small">Valorant</div>
+                    </td>
+                    <td>PKR 5,490</td>
+                    <td><input class="form-control quantity-input" type="number" value="1" min="1"></td>
+                    <td><strong>PKR 5,490</strong></td>
+                    <td><a class="remove-link" href="#">Remove</a></td>
+                  </tr>
+                  <tr>
+                    <td class="ps-4"><strong>3,000 Rocket League Credits</strong>
+                      <div class="section-copy small">Rocket League</div>
+                    </td>
+                    <td>PKR 6,950</td>
+                    <td><input class="form-control quantity-input" type="number" value="1" min="1"></td>
+                    <td><strong>PKR 6,950</strong></td>
+                    <td><a class="remove-link" href="#">Remove</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap gap-3 p-4 border-top"
+              style="border-color:var(--line)!important"><a class="btn btn-darkline" href="products.html">Continue
+                Shopping</a><button class="btn btn-darkline" type="button">Update Cart</button></div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="summary-card">
+            <h2 class="summary-title h5">Order Summary</h2>
+            <div class="summary-row"><span>Subtotal</span><strong>PKR 12,440</strong></div>
+            <div class="summary-row"><span>Service fee</span><strong>PKR 100</strong></div>
+            <div class="summary-row summary-total"><span>Total</span><strong>PKR 12,540</strong></div><a
+              href="checkout.html" class="btn btn-accent w-100 mt-3">Proceed to Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
